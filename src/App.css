@@ -233,6 +233,7 @@
     width: calc(100% - 20px);
     display: flex;
     height: 140px;
+    pointer-events: none;
   }
   .card-img img {
     width: 60%;
