@@ -270,4 +270,12 @@
     -moz-animation: none;
     animation: none;
   }
+  .card-id {
+    font-size: 12px;
+    right: -11px;
+    top: -11px;
+  }
+  .card-back.card-face {
+    display: none;
+  }
 }
