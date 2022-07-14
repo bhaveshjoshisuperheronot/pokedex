@@ -54,7 +54,7 @@ export default class Card extends React.Component {
     
 
     render() {
-        const { error, isLoaded, items, pokeImg, hp, attack, defense, speed , type, abilities} = this.state;
+        const { items, pokeImg, hp, attack, defense, speed , type, abilities} = this.state;
         let abilityList = "";
         for(var i = 0; i < abilities.length; i++) {
             if( i !== abilities.length - 1)
@@ -71,7 +71,7 @@ export default class Card extends React.Component {
                 <div className="card-main" id={items.id} onClick = {this.handleClick}>
                     <div className="card-face card-front">
                         <div className="card-img">
-                            <img src={pokeImg.front_default}/>
+                            <img src={pokeImg.front_default} alt={items.name}/>
                         </div>
                         <div className="card-id">{items.id}</div>
                         <p className="card-name">{items.name}</p>
@@ -87,7 +87,7 @@ export default class Card extends React.Component {
                     </div>
                     <div className="card-face card-back">
                         <div className="circle-img">
-                            <img src={pokeImg.front_default}/>
+                            <img src={pokeImg.front_default} alt={items.name}/>
                         </div>
                         <p className="card-name">{items.id}. {items.name}</p>
                         <p className="card-description">
