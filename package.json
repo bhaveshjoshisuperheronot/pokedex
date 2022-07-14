@@ -1,7 +1,7 @@
 {
   "name": "propeller-test",
   "version": "0.1.0",
-  "homepage": "https://bhaveshjoshisuperheronot.github.io/pokedex_gh",
+  "homepage": "https://bhaveshjoshisuperheronot.github.io/pokedex_netlify",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
