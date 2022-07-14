@@ -123,6 +123,10 @@
   color: #fff;
 }
 
+.card-description span {
+  text-transform: capitalize;
+}
+
 .card-description-list {
   display: none;
 }

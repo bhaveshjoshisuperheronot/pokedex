@@ -91,7 +91,7 @@ export default class Card extends React.Component {
                         </div>
                         <p className="card-name">{items.id}. {items.name}</p>
                         <p className="card-description">
-                            It is a {type} type pokemon. They have the following abilities : {abilityList}. Also they have a base experience of {items.base_experience}.
+                            <span>{items.name}</span> is a {type} type pokemon. They have the following abilities : {abilityList}. Also they have a base experience of {items.base_experience}.
                         </p>
                     </div>
                 </div>
